@@ -31,6 +31,7 @@ ul {
 
 .btn {
     --bs-border-radius: 20px;
+    border: none;
 }
 
 .btn-banner {
@@ -44,6 +45,10 @@ ul {
 
 .bg-baige {
     background-color: #BEBCBB;
+}
+
+.bg-blu {
+    background-color: #161C3B;
 }
 
 /* HELLO BAR */
@@ -119,10 +124,18 @@ ul {
     height: 500px;
 }
 
+
+/* PSPLUS */
 .logo-psplus {
     width: 300px;
 }
 
 .btn-psplus {
     background-color: #D9DADC;
+}
+
+/* PSNOW */
+
+.btn-psnow {
+    background-color: white;
 }
