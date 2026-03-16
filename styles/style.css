@@ -20,6 +20,11 @@ a {
     color: inherit;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 /***********************
         Utility 
 ***********************/
@@ -78,6 +83,26 @@ a {
     height: 500px;
 }
 
-.returnal-img {
+.logo {
     width: 200px;
+}
+
+.banner-main li {
+    max-width: 250px;
+}
+
+.listing-img img {
+    border-radius: 10px;
+}
+
+/*********************************
+        BANNER new release
+*********************************/
+
+.new-releases .banner {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
 }
