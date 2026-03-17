@@ -190,6 +190,11 @@ footer {
     transition: all 1s;
 }
 
+.new-releases .listing-img a:hover {
+    transform: translate(3px, 3px);
+    transition: all 1s;
+}
+
 .list-phote-ps5 li:hover {
     transform: translate(3px, 3px);
     border-bottom: 1px solid rgb(56, 56, 224);
