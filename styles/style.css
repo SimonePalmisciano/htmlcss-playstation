@@ -112,6 +112,10 @@ ul {
     border-radius: 10px;
 }
 
+/* DISCOVER PS5 */
+
+
+
 /*********************************
         BANNER new release
 *********************************/
@@ -138,4 +142,50 @@ ul {
 
 .btn-psnow {
     background-color: white;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #00439C;
+}
+
+.brand-logo-lang-f .brand img {
+    width: 100px;
+}
+
+.lang-globe img {
+    width: 20px;
+    display: inline-block;
+}
+
+.sony-copy img {
+    width: 150px;
+}
+
+.more-info {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+
+    .psplus-feature-img {
+        display: inline-block;
+    }
+
+    #img-text {
+        display: block;
+    }
+
+    .list-phote-ps5 {
+        column-gap: 20px;
+    }
+
+    .list-phote-ps5 li {
+        flex-basis: calc((100% / 5) - (20px * 4) / 5);
+    }
+
+    footer .footer-links li {
+        margin: 10px 0;
+    }
 }
