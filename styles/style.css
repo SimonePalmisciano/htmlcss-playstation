@@ -80,6 +80,7 @@ ul {
     height: 60px;
 }
 
+
 /***********************
         WRAPPER 
 ***********************/
@@ -138,10 +139,27 @@ ul {
     height: 500px;
 }
 
+.new-releases .btn:hover,
+.banner-main .btn:hover {
+    background-color: #f14a13;
+}
+
+/* DISCOVER PS4 */
+
+.discover-ps4 .card:hover {
+    transform: translate(3px, 3px);
+    background-color: #f6f6f6;
+    transition: all 0.5s ease;
+}
+
 
 /* PSPLUS */
 .logo-psplus {
     width: 300px;
+}
+
+.banner-psplus .btn:hover{
+    background-color: rgb(232, 232, 232);
 }
 
 .btn-psplus {
@@ -156,6 +174,11 @@ ul {
 
 .btn-psnow {
     background-color: white;
+}
+
+.banner-psnow .btn:hover {
+    background-color: #D9DADC;
+    transition: all 0.1s ease;
 }
 
 
